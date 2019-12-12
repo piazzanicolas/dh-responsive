@@ -26,19 +26,15 @@ body {
   margin-right: auto;
 }
 
-.main-nav{
-  overflow: hidden;
-  width: 100%;
-}
-
 ul {
  margin: 0px;
  padding: 0px;
- list-style: none
+ list-style: none;
+ overflow: hidden;
 }
 
 .main-nav li {
-  display: inline-block;
+  float:left;
   background-color: #404040;
   width: 15.25%;
   height: 50px;
@@ -47,33 +43,28 @@ ul {
   line-height: 50px;
   color: white;
   font-weight: bold;
-  margin-right: 1%;
+  margin: 0 0.7083%;
+}
+
+.banner{
+  margin: 20px 0.7083% 30px;
 }
 
 .banner img {
   display: block;
-  margin-top: 20px;
   width: 100%;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .vip-products{
   width: 100%;
-  margin-right: auto;
-  margin-left: auto;
   overflow: hidden;
-  border: solid 1px green;
   align-items: justify;
 }
 
-.product{
+.product {
+  margin: 0px 0.7083% 30px;
   float: left;
-  display: inline-block;
-  width: 33.33%;
-  margin-bottom: 30px;
-  border: solid 1px red;
+  width: 31.91%;
 }
 
 .photo-container{
@@ -86,13 +77,13 @@ ul {
 
 .special{
   position: absolute;
-  right: 20px;
+  right: 10px;
   top: 0px;
 }
 
 .zoom{
   position: absolute;
-  width: 380px;
+  width: 100%;
   left: 0;
   background-color: rgba(0, 0, 0, 0.4);
   text-transform: uppercase;
@@ -115,32 +106,28 @@ ul {
 }
 
 .main-footer{
-  width: 100%;
   background-color: darkred;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  margin-right: auto;
-  margin-left: auto;
-  overflow: hidden;
-  height: 100px;
+  padding: 50px 0;
+  margin: 0 0.7083%;
+  width: 98.5834%;
 }
 
 .main-footer ul {
-  width: 500px;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 40px;
+  overflow: hidden;
+  width: 50%;
+  margin: 0px 25%;
 }
 
 .main-footer li {
-  display: inline-block;
-  list-style-type: none;
-  border-right: white solid 2px;
-  text-align: center;
+  float: left;
   color: white;
   font-weight: bold;
+  border-right: 1px solid white;
+  padding: 0px 5px;
 }
 
-.contacto{
-  border: none;
+.main-footer li:last-child {
+  border-right: none;
 }
